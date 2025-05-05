@@ -60,6 +60,15 @@ body {
     font-size: 50px;
     font-weight: bold;
   }
+  
+  
+  .sub-title::after {
+   content: '';
+   display: block;
+   width: 100px;
+   height: 4px;
+   background-color: #554485;
+  }
   .description {
     margin: 0;
     margin-bottom: 40px;
